@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    background-image:url('https://media.giphy.com/media/26hiu1Oj15ePpkJnG/giphy.gif');
+    background-position: center;
+    background-size: cover;
 }
 
 h1 {
