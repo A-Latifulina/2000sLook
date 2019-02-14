@@ -8,25 +8,28 @@ body {
 }
 
 .spingif {
-    margin-top: 5%;
-    margin-bottom: 7%;
+    margin: 4%;
+}
+
+.comp {
+    margin: 3%;
 }
 
 .bulb {
     height: 15%;
     width: 15%;
-    margin: 5%;
+    margin: 3%;
 }
 
 .glitch {
-    margin: 0;
+    margin-top: 7%;
     height: 25%;
     width: 25%;
 }
 
 .pic {
     border-radius: 100px;
-    margin: 2%;
+    margin: 4%;
 }
 
 h1 {
@@ -40,7 +43,7 @@ h2 {
     font-family: 'Baloo', cursive;
     margin: 0;
     font-size: 2rem;
-    color: #0053be;
+    color: #187cff;
     font-weight: lighter;
 }
 
@@ -66,13 +69,15 @@ h4 {
 }
 
 .bottom-container {
-    background-color: rgb(0, 0, 0);
-    margin-top: 5%;
+    background-color: rgb(1, 0, 46);
+    margin: 0;
+    color: grey;
+    border: 3px solid rgb(0, 0, 73);
 }
 
 p {
     margin: 0;
-    color: rgb(219, 255, 255);
+    color: #dbffff;
 }
 
 .footer-link {
@@ -81,5 +86,39 @@ p {
 }
 
 hr {
-    width: 60%;
+    border:none;
+    border-top:6px dotted #77efff;
+    background-color:#000000;
+    width:15%;
 }
+
+.btn {
+    background: #42d3ff;
+    background-image: -webkit-linear-gradient(top, #42d3ff, #2980b9);
+    background-image: -moz-linear-gradient(top, #42d3ff, #2980b9);
+    background-image: -ms-linear-gradient(top, #42d3ff, #2980b9);
+    background-image: -o-linear-gradient(top, #42d3ff, #2980b9);
+    background-image: linear-gradient(to bottom, #42d3ff, #2980b9);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: Roboto;
+    color: #dbffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #00ccff;
+    background-image: -webkit-linear-gradient(top, #00ccff, #0033ff);
+    background-image: -moz-linear-gradient(top, #00ccff, #0033ff);
+    background-image: -ms-linear-gradient(top, #00ccff, #0033ff);
+    background-image: -o-linear-gradient(top, #00ccff, #0033ff);
+    background-image: linear-gradient(to bottom, #00ccff, #0033ff);
+    text-decoration: none;
+  }
+  
+  .btn {
+      margin: 4rem;
+  }
