@@ -49,8 +49,9 @@ h2 {
 
 h3 {
     font-family: 'Baloo', cursive;
-    margin: 0;
+    margin: 2rem;
     color: #187cff;
+    font-weight: lighter;
 }
 
 h4 {
@@ -69,7 +70,7 @@ h4 {
 }
 
 .bottom-container {
-    background-color: rgb(1, 0, 46);
+    background-color: rgb(3, 0, 34);
     margin: 0;
     color: grey;
     border: 3px solid rgb(0, 0, 73);
@@ -77,19 +78,19 @@ h4 {
 
 p {
     margin: 0;
-    color: #dbffff;
+    color: #b4ddff;
 }
 
 .footer-link {
     margin: 0;
-    color: #0000EE;
+    color: #562d7d;
 }
 
 hr {
     border:none;
-    border-top:6px dotted #77efff;
+    border-top:6px dotted #00e1ff;
     background-color:#000000;
-    width:15%;
+    width:10%;
 }
 
 .btn {
@@ -102,7 +103,7 @@ hr {
     -webkit-border-radius: 15;
     -moz-border-radius: 15;
     border-radius: 15px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     color: #dbffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -117,8 +118,22 @@ hr {
     background-image: -o-linear-gradient(top, #00ccff, #0033ff);
     background-image: linear-gradient(to bottom, #00ccff, #0033ff);
     text-decoration: none;
+    color: #dbffff
   }
   
   .btn {
       margin: 4rem;
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+  a:hover {
+      color: #6a6aff;
+  }
+
+  .copyright {
+      color: #ae427b;
+      font-size: 1rem;
   }
